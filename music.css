@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+.controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    border:none;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.controls button:hover{
+    background-color: #08a600;
+}
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+}
+.cover-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; 
+}
+.coverImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+.playlist {
+    margin-top: 50px;
+}
+.playlist ul {
+    list-style:none;
+    padding: 0;
+}
+.playlist li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.playlist li:hover {
+    background-color: #000000;
+}
+header h1{
+    align-items: center;
+    justify-content: center;
+}
